@@ -32,3 +32,38 @@ body{
     height: 24px;
     margin-left: 25px;
 }
+
+/* block-2 */
+
+.block-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 137px;
+}
+.block-2 h1{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.block-2__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.block-2__links p{
+    rotate: 270deg;
+}
+.lorem{
+    max-width: 668px;
+}
+.lorem p{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Fira Sans;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 28px;
+}
