@@ -40,6 +40,9 @@ body{
     justify-content: space-between;
     margin-top: 137px;
 }
+.block-2 img{
+    display: block;
+}
 .block-2 h1{
     color: #FFF;
     font-family: Fira Sans;
@@ -55,9 +58,16 @@ body{
 }
 .block-2__links p{
     rotate: 270deg;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .lorem{
     max-width: 668px;
+    margin: 30px 0 40px 0;
 }
 .lorem p{
     color: #FFF;
@@ -67,3 +77,41 @@ body{
     font-style: normal;
     line-height: 28px;
 }
+.btn-more{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Fira Sans;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+
+    border-radius: 30px;
+    background: #003ADB;
+    padding: 9px 25px;
+    margin-bottom: 70px;
+}
+.btn-more:hover{
+    box-shadow: 0px 10px 30px 0px rgba(64, 106, 255, 0.24);
+}
+.progressbar label{
+    color: #FFF;
+    font-size: 32px;
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+#prog-1{
+    height: 2px;
+    width: 220px;
+    margin: 0 14px 15px 14px;
+}
+::-webkit-progress-bar{
+    background-color: #FFF;
+}
+::-webkit-progress-value{
+    background-color: #003ADB;
+}
+
+/* next block */
+
