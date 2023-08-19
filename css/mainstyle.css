@@ -31,6 +31,7 @@ body{
     width: 24px;
     height: 24px;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 /* block-2 */
@@ -89,8 +90,10 @@ body{
     background: #003ADB;
     padding: 9px 25px;
     margin-bottom: 70px;
+    transition: .3s ease;
 }
 .btn-more:hover{
+    transition: .3s ease;
     box-shadow: 0px 10px 30px 0px rgba(64, 106, 255, 0.24);
 }
 .progressbar label{
@@ -115,3 +118,92 @@ body{
 
 /* next block */
 
+.head__h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1em;
+}
+
+.head__inner-div{
+    display:grid;
+    grid-template-columns: repeat(4, 80fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1em;
+}
+.head__inner-div div{
+    max-width: 350px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1em;
+
+    border-radius: 4px;
+    background: #1B2837;
+}
+.head__inner-div div:last-child{
+    border: none;
+    background: none;
+}
+.head__inner-div div:last-child .btn-more{
+    width: max-content;
+}
+.head__inner-div div:last-child h3{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+.head__inner-div h2{
+    color: var(--light, #F8F9FA);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.head__inner-div p{
+    color: var(--light, #F8F9FA);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.head__inner-div div:last-child p{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.head__inner-div a{
+    max-width: max-content;
+
+    color: var(--light, #F8F9FA);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    transition: .5s ease;
+}
+.head__inner-div a:hover{
+    transition: .5s ease;
+    text-decoration-line: underline;
+}
+
+.head__inner-div div:not(:last-child){
+    position: relative;
+}
