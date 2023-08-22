@@ -207,3 +207,236 @@ body{
 .head__inner-div div:not(:last-child){
     position: relative;
 }
+
+
+
+/* next-block (our works) */
+
+.div-our{
+    display: flex;
+    margin-bottom: 5em;
+}
+.our{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-right: 490px;
+}
+.firstrow{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+.secondrow{
+    display: flex;
+    gap: 2em;
+    margin-left: 3em;
+}
+.smallblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+}
+.smallblock h2{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+.smallblock p{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.smallblock a{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 30px;
+    background: #003ADB;
+    padding: 9px 24px;
+    width: max-content;
+    transition: 0.5ms ease;
+}
+.smallblock a:hover{
+    box-shadow: 0px 10px 30px 0px rgba(64, 106, 255, 0.24);
+    transition: 0.5ms ease;
+}
+
+/* next */
+
+.general{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.general h1{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+.general p{
+    color: #8FC2FF;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%; /* 34.32px */
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+.general span{
+    width: 0.5px;
+    height: 239px;
+    background: #ABC4E3;
+}
+
+/* ///// */
+
+.gen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12.5em;
+}
+.div-testimo{
+    display: flex;
+    flex-direction: column;
+    max-width: 668px;
+}
+.div-testimo h1{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Jane{
+    color: #D0D0D0;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.CEO{
+    color: #727272;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.loremm{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+
+    margin-top: 1.5em;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4em;
+}
+.bar p{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bar-2{
+    width: 3.8em;
+    height: 2px;
+    transform: rotate(90deg);
+}
+.tech{
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.tecno img{
+    width: 415px;
+    height: 415px;
+    border-radius: 4px 70px 4px 4px;
+}
+.tecno div:nth-child(2), div:nth-child(3){
+    border-radius: 4px 110px 4px 4px;
+    border-bottom: none;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    border: 1.2em solid #11161C;
+    border-radius: 4px 90px 4px 4px;
+    border-bottom: 5px solid #003ADB;
+    border-bottom-width: 9px;
+    border-right: 5px solid #11161C;
+    background-color: #11161C;
+}
+.data{
+    color: #727272;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.techeader{
+    color: #D0D0D0;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.teclor{
+    margin-top: 11px;
+    color: #9C9898;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.line{
+    margin-top: 42px;
+    width: 100%;
+    height: 9px;
+    /* background: #003ADB; */
+    /* box-shadow: 0px 3px 12px 0px rgba(64, 129, 255, 0.24); */
+}
