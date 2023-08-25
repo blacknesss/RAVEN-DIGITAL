@@ -383,7 +383,7 @@ body{
 }
 .tech{
     border-radius: 4px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(../img/tech.jpg), lightgray 50% / cover no-repeat;
 }
 
 .tecno img{
@@ -393,7 +393,7 @@ body{
     z-index: 1000;
 }
 .tecno div:nth-child(2), div:nth-child(3){
-    border-radius: 4px 110px 4px 4px;
+    border-radius: 4px auto 4px 4px;
     border-bottom: none;
     transition: 0.5s ease;
     overflow: hidden;
@@ -498,3 +498,20 @@ body{
 }
 
 /* ------------------ */
+
+.innercont{
+    display: flex;
+    flex-direction: column;
+}
+.innercont h1{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.innercont__div{
+    display: flex;
+    justify-content: space-between;
+}
