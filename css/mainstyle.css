@@ -502,6 +502,7 @@ body{
 .innercont{
     display: flex;
     flex-direction: column;
+    padding: 64px 0 68px 0;
 }
 .innercont h1{
     color: #FFF;
@@ -514,4 +515,210 @@ body{
 .innercont__div{
     display: flex;
     justify-content: space-between;
+}
+/* -------------------- */
+
+.lastcontact{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-align: center;
+    margin-bottom: 123px;
+}
+.prevlast{
+    display: flex;
+}
+.prevlast h3:not(.mess){
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.mess{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+.prevlast h3:not(:first-child){
+    margin-top: 25px;
+}
+.prevlast input{
+    border-bottom: 1px solid #536A82;
+    width: 586px;
+    padding-bottom: 11px;
+
+    color: #2E2E2E;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.prevlast textarea{
+    border-bottom: 1px solid #536A82;
+    width: 586px;
+    height: 105px;
+    resize: none;
+    padding: 0px 10px 0 0;
+
+    color: #2E2E2E;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    cursor: default;
+}
+::placeholder{
+    color: #2E2E2E;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 1em;
+}
+::-webkit-scrollbar{
+    max-width: 7px;
+    height: 100%;
+    background-color: #2E2E2E;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 4px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+#number{
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+}
+.call-1{
+    display: flex;
+    gap: 72px;
+}
+.btn-call{
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    padding: 1px 42px;
+    border-radius: 30px;
+    background: #003ADB;
+    box-shadow: 0px 0px 10px 0px rgba(64, 106, 255, 0.24);
+}
+.right p{
+    color: #B6B6B6;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#E-mail{
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-number::before{
+    content: url(../img/call.svg);
+}
+.E-mail::before{
+    content: url(../img/email.svg);
+}
+.adress::before{
+    content: url(../img/adress.svg);
+}
+
+.last-send{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    border-radius: 30px;
+    background: #003ADB;
+    padding: 7px 29px;
+    height: max-content;
+    
+}
+.last-send:hover{
+    box-shadow: 0px 10px 10px 0px rgba(64, 106, 255, 0.24);
+}
+.map{
+    border-radius: 69.5px 0px 4px 4px;
+    background: #003ADB;
+    padding: 30px 39px 24px 49px;
+    
+}
+.map:hover{
+    box-shadow: 0px 10px 19px 0px rgba(64, 129, 255, 0.24);
+    cursor: pointer;
+}
+
+/* -------- */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 73px 0;
+    gap: 52px;
+    align-items: center;
+    text-align: center;
+}
+.ipsum{
+    color: #787878;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+.guchiflipflap{
+    display: flex;
+    gap: 98px;
+}
+.guchiflipflap p{
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#copy{
+    color: #787878;
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.205px;
 }
