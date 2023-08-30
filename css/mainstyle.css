@@ -231,6 +231,20 @@ body{
     gap: 2em;
     margin-bottom: 2em;
 }
+.hover-1{
+    position: relative;
+    transition: linear 2s ease-in-out;
+}
+.hover-1:hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #6b2f3cb4;
+    width: 100%;
+    height: 100%;
+    transition: linear 2s ease-in-out;
+}
 .secondrow{
     display: flex;
     gap: 2em;
@@ -301,7 +315,7 @@ body{
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 143%; /* 34.32px */
+    line-height: 143%;
     letter-spacing: 0.24px;
     text-transform: uppercase;
 }
@@ -312,7 +326,25 @@ body{
 }
 
 /* ///// */
-
+.hover-2{
+    position: relative;
+    transition: 4s ease-in-out;
+}
+.hover-2:hover::before{
+    content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.';
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #34537ae5;
+    width: 100%;
+    height: 100%;
+    transition: 4s ease-in-out;
+}
 .gen{
     display: flex;
     justify-content: space-between;
